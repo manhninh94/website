@@ -1,0 +1,58 @@
+#dangnhap{
+    width:260px;
+    margin:0px auto;
+   
+}
+.table{
+    width:365px;
+    height: auto;
+   
+    float:left;
+    margin:;
+    padding-bottom:10px;
+
+}
+h2{
+    text-align: center;
+    background:; 
+    color:#0A6CB7;
+    padding:5px 0px;
+}
+.row{
+    width:300px;
+    float:left;
+    border:1px solid #ddd;
+    background: #F1F2F1;
+}
+.colum1{
+    width:80px;
+    float:left;
+    padding:5px;
+    border:1px solid #ddd;
+    margin:5px;
+    background:#fff;
+    color:#333;
+}
+.colum2{
+    width:155px;
+    float:left;
+
+    border:1px solid #ddd;
+    margin:5px;
+}
+.colum2 input{
+    width:140px;
+    border:none;
+}
+.colum2 input{
+    padding:5px;
+}
+#submit{
+    width:100px;
+    margin-left:98px;
+    float: left;
+}
+.colum2 textarea{
+    width:150px;
+    border:none;
+}

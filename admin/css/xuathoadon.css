@@ -1,0 +1,81 @@
+﻿.wapper{
+border:1px solid #ccc;
+margin:60 auto;
+width:600px;
+padding:5px 15px 15px 15px}
+.header{
+height:70px;
+border-bottom:1px solid #bbb;
+}
+table.tbl_left{
+width:280px;
+float:left;
+clear:both
+}
+table.tbl_right{
+width:250px;
+float:right;
+}
+.tbl_right-total{
+width:300px;
+float:right;
+padding-top:10px;
+font-weight:bold;
+color:#555;
+font-size:12px
+}
+h2{
+text-align:center;
+margin:20px 0px 0px 0px;
+padding:0px
+}
+h5{
+clear:both}
+p{
+font-size:15px;
+font-family:arial, sans-serif}
+.box-date{
+float:right;
+margin:0px;
+padding:0px
+}
+p.date{
+font-size:13px;
+color:#555
+}
+table.tbl{
+clear:both;
+padding:20px 0px 30px 0px}
+h2{
+font-size:24px;
+padding-bottom:30px}
+h3{
+font-size:16px
+}
+h4{
+font-size:14px
+}
+.info{
+float:left;}
+.clear{
+height:20px;
+clear:both
+}
+.tbl_product{
+border:1px solid #bbb;
+background:#ccc;
+
+}
+.tbl_product tr{
+border:1px solid #bbb;
+
+}
+.tbl_product tr td{
+background:#fff;
+border:1px solid #bbb;
+line-height:20px;
+padding:3px 0px 3px 10px
+}
+table td{
+    padding:3px;
+}

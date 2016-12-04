@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteRule ^home.html index.php
+RewriteRule ^gioi-thieu.html index.php?com=about
+RewriteRule ^san-pham.html index.php?com=products
+RewriteRule ^dang-nhap.html index.php?com=login
+RewriteRule ^dang-ky.html index.php?com=register
+RewriteRule ^gio-hang.html index.php?com=cart
+RewriteRule ^cong-trinh-da-thi-cong.html index.php?com=congtrinh
+RewriteRule ^hoanthanh.html index.php?com=finish
+RewriteRule ^tuyen-dung.html index.php?com=recruiment
+RewriteRule ^tin-tuc.html index.php?com=content
+RewriteRule ^doi-tac.html index.php?com=doitac
+RewriteRule ^lien-he.html index.php?com=contact
+RewriteRule ^sanpham-trang-([0-9]+).html index.php?com=products&page=$1
+RewriteRule ^tintuc-trang-([0-9]+).html index.php?com=content&page=$1
+RewriteRule ^thanhtoan.html index.php?com=checkout
+RewriteRule ^them-vao-gio-hang-([0-9]+).html index.php?com=cart&add=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+).html index.php?com=block&title=$1&id=$2
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-page-([0-9]+).html index.php?com=block&title=$1&id=$2&page=$3
+RewriteRule ^block1-([0-9]+)-([0-9]+).html index.php?com=block&id=$1&cate_id=$2
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?com=detail&title=$1&con_id=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?com=detailpro&group=$1&cata=$2&MaSP=$3

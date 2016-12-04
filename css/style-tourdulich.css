@@ -1,0 +1,50 @@
+
+.table{
+    padding-left: 15px;
+    height: auto;
+   
+    margin: 10px auto;
+    width:720px;
+}
+.row{
+    background: #fff;
+    float:left;
+}
+.row a{
+   color:#0691D8; 
+}
+.row a:hover{
+    color:red;
+}
+.colum{
+    width:100px;
+    float:left;
+    padding:10px 0px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.colum1{
+    width:100px;
+    height:60px;
+    float:left;
+    padding:10px 0px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.colum2{
+    width:200px;
+    float: left;
+    padding:5px 0px;
+}
+.table input{
+    padding:5px;
+}
+.button-them{
+    margin-left:190px;
+    color:#0792DB;
+    cursor: pointer;
+}
+.table .checkbox{
+    width:16px;
+    height:16px;
+}

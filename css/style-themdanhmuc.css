@@ -1,0 +1,33 @@
+#cangiua-themdanhmuc{
+    width:500px;
+    margin:0px auto;
+}
+.table{
+    width:500px;
+    height: auto;
+    border:1px solid #ddd;
+    float:left;
+    margin: 10px 0px;
+}
+.row{
+    width:100%;
+    float:left;
+}
+.colum1{
+    width:150px;
+    float:left;
+    padding:10px 20px;
+}
+.colum2{
+    width:200px;
+    float: left;
+    padding:5px 0px;
+}
+.table input{
+    padding:5px;
+}
+.button-them{
+    margin-left:190px;
+    color:#0792DB;
+    cursor: pointer;
+}
