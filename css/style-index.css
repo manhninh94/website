@@ -48,7 +48,7 @@
     height: 50px;
     position: fixed;
     right: 60px;
-    width: 50px;
+    width: auto;
     display:none;
 
 }
